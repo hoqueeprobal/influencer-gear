@@ -30,6 +30,18 @@
   margin-left: 0.5rem;
 }
 
+/* Hover Effect for Prebook & Join Now Button */
+.btn-primary:hover {
+  background-color: #FF5733; 
+  color: #fff; 
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.btn-primary:hover i {
+  color: #fff; 
+}
+
 .container {
   max-width: 1200px;
   margin: auto;
