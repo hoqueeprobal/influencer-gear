@@ -238,3 +238,28 @@ nav ul li a::after {
   font-size: 1rem;
 }
 
+/* Footer Section */
+footer {
+  background-color: rgba(10, 8, 38, 1);
+}
+
+.footer-content {
+  max-width: 370px;
+  width: 100%;
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+}
+
+.footer-content p {
+  font-size: 1rem;
+  margin-top: 5px;
+}
+
+.footer-icons i {
+  margin: 10px;
+}
+
+.footer-icons a {
+  color: white;
+}
