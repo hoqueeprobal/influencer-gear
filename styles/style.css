@@ -211,5 +211,30 @@ nav ul li a::after {
   text-decoration: none;
 }
 
+/* Featured Section */
+.featured {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
 
+.featured img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.featured h2 {
+  font-size: 2.375rem;
+}
+
+.featured p {
+  margin: 1rem auto;
+  font-weight: 500;
+  color: #6C6C6C;
+}
+
+.featured button {
+  border-radius: 0;
+  font-size: 1rem;
+}
 
