@@ -317,3 +317,13 @@ footer {
 .footer-icons a {
   color: white;
 }
+
+/* Hover Effect on Footer */
+.footer-icons i:hover {
+  transform: translateY(-5px); 
+  color: #E02C6D;
+}
+
+.footer-icons a:hover {
+  color: #E02C6D; 
+}
