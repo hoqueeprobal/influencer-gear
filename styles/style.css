@@ -327,3 +327,81 @@ footer {
 .footer-icons a:hover {
   color: #E02C6D; 
 }
+
+ /* Responsive Styles */
+@media screen and (max-width: 768px){
+
+    header {
+        padding-top: 30px;
+    }
+
+    .brand {
+        order: 2;
+        text-align: center;
+    }
+
+    #menue-bar {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    nav {
+        order: 1;
+    }
+
+    #cart-btn {
+        order: 3;
+    }
+
+    .banner, .featured {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .banner {
+        gap: 30px;
+    }
+
+    .banner-content h2 {
+        font-size: 1.75rem;
+    }
+
+    .banner-content p {
+        font-size: 0.875rem;
+    }
+
+    .camera-container {
+        width: 70%;
+    }
+
+    .sponsors {
+        padding: 0 20px;
+        gap: 30px;
+    }
+
+    .sponsors img {
+        max-width: 50px;
+        height: auto;
+    }
+
+    .collections {
+        padding: 0 1rem;
+    }
+
+    .collections .cards {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+
+    .featured {
+        gap: 50px;
+    }
+
+    .featured h2 {
+        font-size: 2rem;
+    }
+
+}
